@@ -9,10 +9,10 @@
 !/docs/
 !/scripts/
 /skills/*
-!/skills/clear-expression/
-/skills/clear-expression/**
-!/skills/clear-expression/**/
-!/skills/clear-expression/**/*.md
+!/skills/hypo-exp/
+/skills/hypo-exp/**
+!/skills/hypo-exp/**/
+!/skills/hypo-exp/**/*.md
 /docs/*
 !/docs/usage.md
 !/docs/design.md

@@ -6,7 +6,7 @@ import re
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / 'skills' / 'clear-expression'
+SKILL = ROOT / 'skills' / 'hypo-exp'
 DOCS = ['usage.md', 'design.md', 'evaluation.md', 'sources.md', 'release-1.0.0.md']
 
 
@@ -15,7 +15,7 @@ def validate():
     if not re.fullmatch(r'\d+\.\d+\.\d+', version):
         raise ValueError('VERSION must use major.minor.patch')
     entry = (SKILL / 'SKILL.md').read_text(encoding='utf-8')
-    if not entry.startswith('---\n') or '\nname: clear-expression\n' not in entry:
+    if not entry.startswith('---\n') or '\nname: hypo-exp\n' not in entry:
         raise ValueError('Missing skill frontmatter or incorrect name')
     if not re.search(r'^  version: "' + re.escape(version) + r'"$', entry, re.M):
         raise ValueError('Skill metadata version differs from VERSION')
@@ -61,10 +61,10 @@ def main():
     if args.check:
         print(f'Hypo-Expression {version}: public links and {len(files)} skill files valid.')
         return
-    output = ROOT / 'dist' / f'clear-expression-{version}.zip'
+    output = ROOT / 'dist' / f'hypo-exp-{version}.zip'
     output.parent.mkdir(exist_ok=True)
-    entries = [(p, 'clear-expression/' + p.relative_to(SKILL).as_posix()) for p in files]
-    entries += [(ROOT / 'LICENSE', 'clear-expression/LICENSE')]
+    entries = [(p, 'hypo-exp/' + p.relative_to(SKILL).as_posix()) for p in files]
+    entries += [(ROOT / 'LICENSE', 'hypo-exp/LICENSE')]
     with zipfile.ZipFile(output, 'w', zipfile.ZIP_DEFLATED) as archive:
         for path, name in entries:
             info = zipfile.ZipInfo(name, date_time=(2026, 10, 6, 0, 0, 0))
