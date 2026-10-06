@@ -1,0 +1,24 @@
+# Track only the public distribution. Research material stays local.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/VERSION
+!/CHANGELOG.md
+!/skills/
+!/docs/
+!/scripts/
+/skills/*
+!/skills/clear-expression/
+/skills/clear-expression/**
+!/skills/clear-expression/**/
+!/skills/clear-expression/**/*.md
+/docs/*
+!/docs/usage.md
+!/docs/design.md
+!/docs/evaluation.md
+!/docs/sources.md
+!/docs/release-1.0.0.md
+/scripts/*
+!/scripts/build_release.py
+__pycache__/
