@@ -2,7 +2,7 @@
 name: hypo-exp
 description: Hypo-Expression（hypo-exp），按用户的表达规范沟通、撰写文档或润色已有文本，处理防御性声明、虚构反对观点、生硬中文搭配和作者身份错位。适用于要求减少AI味、改善表达、按规范汇报或写作的任务；信息不足时主动查阅相关材料。
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Hypo-Expression

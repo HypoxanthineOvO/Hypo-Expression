@@ -1,6 +1,6 @@
 # Hypo-Expression
 
-[![Version v1.0.0](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/HypoxanthineOvO/Hypo-Expression/releases/tag/v1.0.0) [![License MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Version v1.0.1](https://img.shields.io/badge/version-v1.0.1-blue)](https://github.com/HypoxanthineOvO/Hypo-Expression/releases/tag/v1.0.1) [![License MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 **你有没有在使用 AI 的过程中遇到这些情况？**
 
@@ -11,6 +11,7 @@
 Hypo-Expression 的开发者回顾了近半年来使用 AI 的会话，整理其中反复提出的批评和修改意见，从这些具体问题中归纳出几类原则：
 
 - **直接表达观点。** 解释实际内容，回应确实存在的误解，不凭空树立一个反对观点。
+- **在对话中完成回答。** 先交代结论、理由和必要例子，让读者当场理解结果；文件和网站承载详细内容，不代替回答。
 - **把读者需要的内容放在正文里。** 写结果、依据和具体提醒，减少自我辩护与制作过程说明。
 - **使用自然的中文，保留作者立场。** 词语组合要符合表达习惯，写出来的文章要体现作者本来的意思。
 - **保留有用的信息和格式。** 润色不自动变成摘要，数字、条件、论证衔接、编号和加粗都各有作用。
@@ -26,7 +27,7 @@ Hypo-Expression 的开发者回顾了近半年来使用 AI 的会话，整理其
 
 | 功能 | 示例请求 | 处理重点 |
 |---|---|---|
-| 沟通 | 使用 Hypo-Expression，从现在开始按这套规范和我交流 | 回答实际问题，解释原因，在对话中交代主要结果 |
+| 沟通 | 使用 Hypo-Expression，从现在开始按这套规范和我交流 | 直接回答问题，解释结果与实际影响，提供必要例子，不用附件代替回答 |
 | 写作 | 使用 Hypo-Expression，把这些观点写成文章 | 理解作者立场，补充必要的事实、背景、例子和推理，组织成文 |
 | 改稿 | 使用 Hypo-Expression，润色这份报告 | 处理表达与衔接，默认保留信息和有用格式，必要时查阅背景 |
 
@@ -34,7 +35,7 @@ Skill 短名是 **`hypo-exp`**，也可以直接说“用 hypo-exp 帮我写一�
 
 ## 获取与安装
 
-从 [v1.0.0 Release](https://github.com/HypoxanthineOvO/Hypo-Expression/releases/tag/v1.0.0) 下载 `hypo-exp-1.0.0.zip`，解压得到 `hypo-exp/`。保留完整目录，入口引用的操作和参考文件也是 Skill 的组成部分。
+从 [v1.0.1 Release](https://github.com/HypoxanthineOvO/Hypo-Expression/releases/tag/v1.0.1) 下载 `hypo-exp-1.0.1.zip`，解压得到 `hypo-exp/`。保留完整目录，入口引用的操作和参考文件也是 Skill 的组成部分。
 
 ### Codex
 
@@ -46,7 +47,7 @@ mkdir -p ~/.agents/skills
 ln -s "$(pwd)/Hypo-Expression/skills/hypo-exp" ~/.agents/skills/hypo-exp
 ```
 
-若已经安装同名 Skill，更新原有目录。目录约定见 [Codex 官方 Skill 文档](https://learn.chatgpt.com/docs/build-skills)。
+软链接安装后，客户端直接读取仓库中的 Skill；更新仓库即可使用新内容。已有独立副本时，先移到技能目录之外备份，再建立同名链接。目录约定见 [Codex 官方 Skill 文档](https://learn.chatgpt.com/docs/build-skills)。
 
 ### 其他 AI
 
