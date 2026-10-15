@@ -10,6 +10,7 @@
 | [Vale](https://github.com/vale-cli/vale) | 按文体和范围组织可维护的规则 |
 | [write-good](https://github.com/btford/write-good) | 识别含混和冗余表达 |
 | [proselint](https://github.com/amperser/proselint) | 具体风格问题与适用范围 |
+| [AI Writing Humanizer](https://github.com/ZaynJarvis/ai-writing-humanizer) | 中文AI写作痕迹的分类：结构、词汇、句法与语气 |
 | [Humanizer](https://github.com/blader/humanizer) | 虚构异议、模板化表达及写作过程残留 |
 | [Stop That Shit](https://github.com/lennney/stop-that-shit) | 判断限定语对读者的实际作用，处理防御性表述 |
 | [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) | 保持原意与结构，避免过度改写 |
