@@ -7,7 +7,8 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / 'skills' / 'hypo-exp'
-DOCS = ['usage.md', 'design.md', 'evaluation.md', 'sources.md', 'release-1.0.0.md']
+DOCS = ['使用.md', '设计.md', '评测.md']
+REQUIREMENTS = ROOT / 'docs' / '需求'
 
 
 def validate():
@@ -23,6 +24,7 @@ def validate():
         raise ValueError('The package must have one discoverable SKILL.md')
     files = sorted(SKILL.rglob('*.md'))
     public = files + [ROOT / 'README.md', ROOT / 'CHANGELOG.md'] + [ROOT / 'docs' / n for n in DOCS]
+    public += sorted(REQUIREMENTS.glob('*.md'))
     allowed = set(public) | {ROOT / 'LICENSE'}
     graph = []
     for path in public:

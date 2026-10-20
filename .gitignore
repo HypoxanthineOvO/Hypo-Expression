@@ -1,10 +1,13 @@
-# Track only the public distribution. Research material stays local.
+# Track the Skill and its documentation. Research material stays local in research/.
 /*
 !/.gitignore
 !/README.md
 !/LICENSE
 !/VERSION
 !/CHANGELOG.md
+!/AGENTS.md
+!/RULES.md
+!/STATUS.md
 !/skills/
 !/docs/
 !/scripts/
@@ -14,11 +17,12 @@
 !/skills/hypo-exp/**/
 !/skills/hypo-exp/**/*.md
 /docs/*
-!/docs/usage.md
-!/docs/design.md
-!/docs/evaluation.md
-!/docs/sources.md
-!/docs/release-1.0.0.md
+!/docs/设计.md
+!/docs/评测.md
+!/docs/使用.md
+!/docs/需求/
+/docs/需求/*
+!/docs/需求/*.md
 /scripts/*
 !/scripts/build_release.py
 __pycache__/
