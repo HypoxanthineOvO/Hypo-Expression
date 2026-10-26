@@ -6,7 +6,7 @@
 |---|---|---|---|
 | 报道 | 以事实为主，作者不出场 | [报道](styles/reporting.md) | [时效消息](styles/reporting/news-brief.md)：快讯、新闻汇编、产品与研究动态<br>[活动报道](styles/reporting/event-report.md)：讲座、会议、课程活动 |
 | 论述 | 作者有立场，或以解释为目的 | [论述](styles/argument.md) | 观点文章、口述成文、介绍与文案、科普与教程，在大类文件中分节说明 |
-| 说明与汇报 | 帮助读者理解、判断或执行 | [说明与汇报](styles/explanatory.md) | [仓库文档](styles/explanatory/repository/index.md)：README、版本说明、提交信息、配套文档<br>[界面文案](styles/explanatory/web-ui.md)：网页与应用中的可见文字 |
+| 说明与汇报 | 帮助读者理解、判断或执行 | [说明与汇报](styles/explanatory.md) | [仓库文档](styles/explanatory/repository/index.md)：README、版本说明、提交信息、配套文档<br>[界面](styles/explanatory/web-ui.md)：网页与应用的可见文字、布局和视觉层次 |
 | 学术 | 遵循领域的研究叙述 | [论文](styles/papers.md) | — |
 
 一篇文本跨两类时，按各部分的用途分别处理，例如新闻评论中的报道部分按报道，评论部分按论述。

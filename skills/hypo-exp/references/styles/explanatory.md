@@ -1,6 +1,6 @@
 # 说明与汇报
 
-适用于帮助读者理解、判断或执行的文本：研究报告、项目文档、要求整理和操作说明。细分文体：[仓库文档](explanatory/repository/index.md)、[界面文案](explanatory/web-ui.md)。助手完成任务后的聊天汇报按 [沟通](../../operations/communication/instructions.md) 处理。
+适用于帮助读者理解、判断或执行的文本：研究报告、项目文档、要求整理和操作说明。细分文体：[仓库文档](explanatory/repository/index.md)、[界面](explanatory/web-ui.md)。助手完成任务后的聊天汇报按 [沟通](../../operations/communication/instructions.md) 处理。
 
 ## 事实、分析与建议
 
