@@ -1,6 +1,6 @@
 # Hypo-Expression
 
-[![Version v1.2.0](https://img.shields.io/badge/version-v1.2.0-blue)](https://github.com/HypoxanthineOvO/Hypo-Expression/releases/tag/v1.2.0) [![License MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Version v1.3.0](https://img.shields.io/badge/version-v1.3.0-blue)](https://github.com/HypoxanthineOvO/Hypo-Expression/releases/tag/v1.3.0) [![License MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Hypo-Expression（短名 `hypo-exp`）是一个给 AI 读的中文表达规范 Skill。它让模型在沟通、写作和改稿时，写出没有 AI 味、符合作者身份和文体惯例的中文。
 
@@ -50,7 +50,7 @@ Skill 短名是 **`hypo-exp`**，也可以直接说“用 hypo-exp 帮我写一�
 
 ## 安装
 
-从 [v1.2.0 Release](https://github.com/HypoxanthineOvO/Hypo-Expression/releases/tag/v1.2.0) 下载 `hypo-exp-1.2.0.zip`，解压得到 `hypo-exp/`。保留完整目录，入口引用的操作和参考文件也是 Skill 的组成部分。
+从 [v1.3.0 Release](https://github.com/HypoxanthineOvO/Hypo-Expression/releases/tag/v1.3.0) 下载 `hypo-exp-1.3.0.zip`，解压得到 `hypo-exp/`。保留完整目录，入口引用的操作和参考文件也是 Skill 的组成部分。
 
 ### Codex
 

@@ -4,7 +4,7 @@
 
 ## 现在
 
-已发布 1.2.0。项目文档已按 Hypo-Workflow 3.0 重新整理；已补充戏剧化短语、泛用统计术语、预设读者误解与评判式沟通表态的规则，并完成独立扫描与基准评测工具 `scripts/scan_expression.py`，等用户审阅。
+已发布 1.3.0。项目文档已按 Hypo-Workflow 3.0 重新整理；已补充戏剧化短语、泛用统计术语、预设读者误解与评判式沟通表态的规则，并完成独立扫描与基准评测工具 `scripts/scan_expression.py`。
 
 Hypo-Workflow 单向依赖本项目：它的通用 AGENTS.md 里关于表达的几行是这里规则的摘要，安装 Workflow 时一起装 hypo-exp。本项目照常独立发布，Skill 里不引用 Workflow。表达规则要改，先改这里。
 
