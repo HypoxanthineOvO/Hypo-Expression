@@ -16,6 +16,7 @@ Hypo-Expression（短名 `hypo-exp`）是一个给 AI 读的表达规范 Skill�
 ## 构建与测试
 
 - 检查公开文件和 Skill 链接：`python3 scripts/build_release.py --check`
+- 扫描文本中的 AI 表达痕迹与跑正负语料基准：`python3 scripts/scan_expression.py`
 - 打包：`python3 scripts/build_release.py`，输出 `dist/hypo-exp-<版本>.zip`
 - 本机安装是软链接 `~/.agents/skills/hypo-exp -> skills/hypo-exp`，改 Skill 即时生效。
 - Skill 效果没有自动测试，由用户对照原文和输出评价，方法见 `docs/评测.md`。

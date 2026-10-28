@@ -25,4 +25,5 @@
 !/docs/需求/*.md
 /scripts/*
 !/scripts/build_release.py
+!/scripts/scan_expression.py
 __pycache__/
